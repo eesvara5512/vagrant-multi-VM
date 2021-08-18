@@ -1,0 +1,25 @@
+{
+  "name": "vagrant-multi-vm",
+  "version": "0.1.0",
+  "description": "A multi VM vagrant setup.",
+  "main": "app2.js",
+  "scripts": {
+    "start": "node app2.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bradwindy/vagrant-multi-VM.git"
+  },
+  "author": "Bradley Windybank",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bradwindy/vagrant-multi-VM/issues"
+  },
+  "homepage": "https://github.com/bradwindy/vagrant-multi-VM#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongodb": "^3.3.0-beta2"
+  }
+}
